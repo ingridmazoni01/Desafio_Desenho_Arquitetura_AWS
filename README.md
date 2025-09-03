@@ -53,12 +53,12 @@ Detalhamento:
         - Banco de dados MySQL (dados e logs).
 
 4. **Backup e Recuperação**:
-        - Snapshots do EBS são criados diariamente (Backup do EBS)
-        - S3 Versioning: Mantém versões anteriores dos arquivos para auditoria e recuperação e os dados do S3 são replicados para outra região (Cross-Region Replication).
+    - Snapshots do EBS são criados diariamente (Backup do EBS)
+    - S3 Versioning: Mantém versões anteriores dos arquivos para auditoria e recuperação e os dados do S3 são replicados para outra região (Cross-Region Replication).
 
 5. **Monitoramento com CloudWatch**:
-       - Lambda e EC2: Métricas de desempenho (ex: tempo de execução, uso de CPU).
-       - Alertas: Notificações para falhas no processamento de dados ou indisponibilidade.        
+    - Lambda e EC2: Métricas de desempenho (ex: tempo de execução, uso de CPU).
+    - Alertas: Notificações para falhas no processamento de dados ou indisponibilidade.        
 
 
         
