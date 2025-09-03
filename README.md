@@ -1,6 +1,8 @@
 # Desafio_Desenho_Arquitetura_AWS
 Desafio da DIO na Aula de Gerenciamento de instâncias EC2 na AWS.
 
+Para abrir o desenho clique no link https://app.diagrams.net/#Hingridmazoni01%2FDesafio_Desenho_Arquitetura_AWS%2Fmain%2Fdesafio.drawio#%7B%22pageId%22%3A%2208FGlIk4cyvWSVDsEzVf%22%7D
+
 
 Arquitetura Proposta para Gerenciar um Sistema de Vendas de uma Rede de Supermercados 
 
@@ -52,13 +54,7 @@ Detalhamento:
         - Dados temporários e caches
         - Banco de dados MySQL (dados e logs).
 
-4. **Backup e Recuperação**:
-    - Snapshots do EBS são criados diariamente (Backup do EBS)
-    - S3 Versioning: Mantém versões anteriores dos arquivos para auditoria e recuperação e os dados do S3 são replicados para outra região (Cross-Region Replication).
-
-5. **Monitoramento com CloudWatch**:
-    - Lambda e EC2: Métricas de desempenho (ex: tempo de execução, uso de CPU).
-    - Alertas: Notificações para falhas no processamento de dados ou indisponibilidade.        
+      
 
 
         
